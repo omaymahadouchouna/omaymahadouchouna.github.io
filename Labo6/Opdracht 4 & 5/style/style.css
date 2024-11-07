@@ -17,3 +17,10 @@ a:hover{
 .stippelrand{
     border: 1px dotted greenyellow;
 }
+
+a{
+    padding: 1em;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("../images/link.webp");
+}
