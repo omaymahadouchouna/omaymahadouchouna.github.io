@@ -21,7 +21,7 @@ body > section > header > h1{
 }
 
 section > nav{
-    background-color: darkgray;
+    background-color: #444444;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
 }
@@ -34,7 +34,7 @@ section > nav > a{
 }
 
 article{
-    background-color: grey;
+    background-color: lightgray;
     padding: 5px;
     margin: 5px;
 }
