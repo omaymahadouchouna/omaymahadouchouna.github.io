@@ -62,12 +62,14 @@ body > article > h2 {
 }
 
 #guarantee{
-    background-color: #a7cece;
     border: 2px dotted white;
     margin: 30px;
-    padding: 20px;
+    padding: 25px 25px 25px 80px;
     color: #444444;
     font-style: italic;
+    line-height: 1.9em;
+    font-family: Georgia,"Times New Roman", Times, serif;
+    background: #a7cece url("../images/background.gif") no-repeat top left;
 }
 a{
     color: #444444;
