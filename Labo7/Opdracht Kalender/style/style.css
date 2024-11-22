@@ -1,43 +1,48 @@
-/* Algemene tabelopmaak */
 table {
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    float: left;
 }
 
 th, td {
-    border: 1px solid #ccc;
-    text-align: center;
+    border: 1px solid black;
     padding: 10px;
 }
 
-/* Maand-hoofding */
 thead tr:first-child th {
     background-color: rgb(170, 170, 200);
     color: white;
     font-size: 1.5em;
 }
 
-/* Dag-hoofding */
 thead tr:last-child th {
     background-color: rgb(35, 37, 70);
     color: rgb(200, 190, 240);
 }
 
-/* Weekends zonder speciale class */
-tbody tr td:first-child, /* Maandag */
-tbody tr td:last-child { /* Zondag */
+tbody tr td:first-child,
+tbody tr td:last-child {
     background-color: rgb(255, 220, 220);
 }
 
-/* Vorige/volgende maand dagen */
-.prev-month, .next-month {
+td .anderemaand {
     color: gray;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
 }
 
-/* Vrije dag */
-.holiday {
+tbody tr td.anderemaand:first-child,
+tbody tr td.anderemaand:last-child,
+tbody tr td.anderemaand:first-child,
+tbody tr td.anderemaand:last-child {
+    background-color: #f0f0f0 !important;
+    }
+
+.vrijedag {
     background-color: rgb(250, 120, 120);
     color: white;
+    font-weight: bold;
 }
