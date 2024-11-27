@@ -1,0 +1,26 @@
+article{
+    font-family: Verdana, sans-serif;
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 1.25em;
+    min-height: 280px;
+    padding: 10px;
+}
+
+article:nth-child(odd) img{
+    float: left;
+}
+
+article:nth-child(even) img{
+    float: right;
+}
+
+img{
+    margin: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+article h2{
+    margin:0;
+}
