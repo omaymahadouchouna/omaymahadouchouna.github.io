@@ -64,6 +64,7 @@ body > article > h2 {
 #guarantee{
     border: 2px dotted white;
     margin: 30px;
+    margin-right: 50px;
     padding: 25px 25px 25px 80px;
     color: #444444;
     font-style: italic;
