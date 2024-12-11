@@ -58,15 +58,15 @@ section{
     }
 
     .item-1{
-        grid-area: 6/1/7/3; /*begin rij/einde rij / begin kolom/einde kolom*/
+        grid-area: 6/1/7/3; /*begin rij/begin kolom / eind rij/einde kolom*/
     }
 
     .item-3{
-        grid-area: 2/1/3/3; /*begin rij/einde rij / begin kolom/einde kolom*/
+        grid-area: 2/1/3/3; /*begin rij/begin kolom / eind rij/einde kolom*/
     }
 
     .item-6{
-        grid-area: 4/1/5/3; /*begin rij/einde rij / begin kolom/einde kolom*/
+        grid-area: 4/1/5/3; /*begin rij/begin kolom / eind rij/einde kolom*/
     }
 
     .item-9{
