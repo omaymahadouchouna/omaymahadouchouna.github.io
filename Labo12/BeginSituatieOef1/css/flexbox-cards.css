@@ -65,12 +65,12 @@ a {
 .container {
 /* flex-eigenschappen */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
+
 }
 
 .card {
     /* flex-eigenschappen */
+    flex: 0 1 auto; /* hoef je niet te schrijven is sws default*/
 }
