@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightskyblue;
+    font-family: Chalkboard, sans-serif;
+}
+
+h1 {text-align: center;}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+
+.border {border: 2px solid black;}
+
+section{
+    background: coral;
+    height: 500px;
+    display: flex;
+    /*flex-direction: row; da is default*/
+    /* flex-direction: column; dit is dan om alles onder elkaar te doen */
+    /* flex-wrap: wrap;*/
+    /*justify-content: stretch; dit is default -> hoe ga je verticaal je elementen gaan positioneren*/
+    justify-content: center;
+    align-items: center;
+    }
+
+.grey-box {
+    background: grey;
+    width: 100px;
+    flex: 0 1 auto; /*die 0 betekent je mag niet groeien dus niet groter dan opgegeven grootte dus hier 100%(erboven) => flex-grow, ie staat er
+    default ook al schrijf je em ni
+    en dan die 1 is je mag inkrimpen => flex-shrink
+    die auto is neem breedte over die ingesteld is (in dit geval 100)*/
+
+    /* hetzelfde zou dit zijn : flex: 0 1 100%; en dan die width weg*/
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+}
+
+
