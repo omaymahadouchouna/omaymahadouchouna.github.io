@@ -1,4 +1,8 @@
-
+main>div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
 
 .caption {
     font-family: helvetica;
@@ -8,20 +12,27 @@
 
 .gridHeader {
     background-color: #dcd6fe;
+    grid-area: 1/2 ;
+
 }
 
 .gridNav {
     background-color: #c6c0ff;
+
 }
 
 .gridMain {
     background-color: #f9f6d2;
+
 }
 
 .gridAside {
     background-color: #d4ffd1;
+
 }
 
 .gridFooter {
     background-color: #ffd1d1;
+
 }
+
