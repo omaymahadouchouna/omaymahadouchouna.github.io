@@ -31,7 +31,6 @@ nav{
     width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
-    border-right: 1px solid #ebe8e8;
     border-top: 1px solid #ebe8e8;
 }
 
@@ -69,7 +68,7 @@ main>header{
     border-top: 1px solid #ebe8e8;
     width: 100%;
     height: 500px;
-    background-image: url("Oefenexam2/images/headerimage.jpg");
+    background-image: url("../images/headerimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -81,7 +80,12 @@ main>header{
     text-shadow: 2px 2px #8D99AE;
 
 }
+.recipes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 
+}
 /** Volgende CSS gaan we ze geven **/
 .respimg {
     width: 100%;
