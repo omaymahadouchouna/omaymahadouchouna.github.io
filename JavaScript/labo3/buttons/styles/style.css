@@ -1,0 +1,12 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: black solid 2px;
+    background-color: white;
+
+}
+.pink {
+     background-color: lightpink;
+     color: white;
+}
+
